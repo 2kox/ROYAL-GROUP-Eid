@@ -7,14 +7,17 @@
   <style>
     /* إعدادات الصفحة الأساسية */
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: url('your-image.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: black; /* تغيير اللون ليكون أوضح */
-      margin: 0;
-      padding: 0;
-    }
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #D7D3D2; /* Fallback color */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
 
     header {
       padding: 10px;
@@ -41,14 +44,14 @@
     .image-container {
       display: inline-block;
       padding: 5px;
-      width: 150px; /* زيادة الحجم ليكون أكبر */
-      height: 150px; /* زيادة الحجم ليكون أكبر */
-      background: url('logo.png') no-repeat center center; /* جعل الشعار جزءًا من الخلفية */
-      background-size: contain; /* التأكد من وضوح الصورة */
+      width: 150px;
+      height: 150px;
+      background: url('logo.png') no-repeat center center;
+      background-size: contain;
     }
 
     .image {
-      display: none; /* إخفاء الصورة الأصلية */
+      display: none;
     }
 
     /* تنسيق عنوان الموقع */
@@ -65,9 +68,8 @@
       display: inline-block;
     }
 
-    /* إزالة النجمة من الاسم */
     header h1 .o .star {
-      display: none; /* إخفاء النجمة */
+      display: none;
     }
 
     /* تنسيق قسم الترحيب */
@@ -76,12 +78,12 @@
     }
 
     .text-frame {
-      border: 5px solid black; /* تعديل اللون ليتناسب مع الخلفية الجديدة */
-      background-color: white; /* لون خلفية النص */
+      border: 5px solid black;
+      background-color: white;
       padding: 15px;
       border-radius: 10px;
       display: inline-block;
-      max-width: 60%; /* تقليل العرض لجعل الصندوق أضيق */
+      max-width: 60%;
     }
 
     .text-frame h2 {
@@ -93,8 +95,8 @@
     .text-frame p {
       font-family: 'Arial', sans-serif;
       font-size: 10px;
-      margin: 2px 0; /* تقليل المسافة بين الفقرات */
-      line-height: 1.3; /* تقليل المسافة بين الأسطر */
+      margin: 2px 0;
+      line-height: 1.3;
     }
 
     /* تنسيق الأزرار */
@@ -128,13 +130,13 @@
     }
 
     .link:hover {
-      background-color: #dcdcdc; /* تغيير التأثير ليتماشى مع اللون الجديد */
+      background-color: #dcdcdc;
       transform: scale(1.05);
     }
 
     /* تنسيق الفوتر */
     footer {
-      background-color: #444; /* لون رمادي داكن */
+      background-color: #444;
       color: white;
       padding: 10px;
       font-size: 12px;
@@ -160,7 +162,7 @@
       }
 
       .text-frame {
-        max-width: 80%; /* زيادة العرض قليلاً في الأجهزة الصغيرة */
+        max-width: 80%;
       }
     }
   </style>
@@ -170,7 +172,6 @@
   <!-- الهيدر -->
   <header>
     <div class="image-container">
-      <!-- الصورة الأصلية ستكون مختفية الآن -->
       <img src="logo.png" alt="𝐑𝐨𝐲𝐚𝐥 𝐆𝐫𝐨𝐮𝐩 𝐋𝐨𝐠𝐨" class="image">
     </div>
     <h1>
@@ -187,13 +188,12 @@
     <p>Eid Al-Fitr Mubarak</p>
     <p>May Allah accept our deeds and grant you a joyful Eid ᰔ</p>
     
-    <p style="margin-top: 5px;"></p> <!-- فاصل أصغر بين النصين -->
+    <p style="margin-top: 5px;"></p>
 
     <p>أهلاً بكم في موقعنا، مبارك عليكم عيد الفطر</p>
     <p>ᰔ تقبل الله منا ومنكم صالح الأعمال، وجعل أيامكم ملؤها الفرح والبركات </p>
   </div>
 </section>
-
 
   <!-- روابط التواصل -->
   <div class="link-container">
